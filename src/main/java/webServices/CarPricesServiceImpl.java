@@ -1,4 +1,6 @@
-package firstWebService;
+package webServices;
+
+import webServices.webServicesInterface.CarPricesWebService;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -9,7 +11,7 @@ import javax.jws.WebParam;
 /**
  * Created by Denys_Koval on 11/3/2016.
  */
-@javax.jws.WebService(endpointInterface = "firstWebService.CarPricesWebService")
+@javax.jws.WebService(endpointInterface = "webServices.webServicesInterface.CarPricesWebService")
 public class CarPricesServiceImpl implements CarPricesWebService {
     private Integer fuelLevel = 0;
 

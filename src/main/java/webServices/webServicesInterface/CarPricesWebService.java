@@ -1,4 +1,4 @@
-package firstWebService;
+package webServices.webServicesInterface;
 
 import javax.jws.WebMethod;
 import javax.jws.soap.SOAPBinding;

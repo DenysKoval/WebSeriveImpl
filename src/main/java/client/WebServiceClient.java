@@ -1,6 +1,6 @@
 package client;
 
-import firstWebService.CarPricesWebService;
+import webServices.webServicesInterface.CarPricesWebService;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -12,8 +12,8 @@ import java.net.URL;
  */
 public class WebServiceClient {
     public static void main(String[] args) throws MalformedURLException {
-        URL url = new URL("http://localhost:8080/firstWebService/carsPrices?wsdl");
-        QName priceName = new QName("http://firstWebService/", "CarPricesServiceImplService");
+        URL url = new URL("http://localhost:8080/webServices/carsPrices?wsdl");
+        QName priceName = new QName("http://webServices/", "CarPricesServiceImplService");
         Service priceNameService = Service.create(url, priceName);
         CarPricesWebService getPriceOfCar = priceNameService.getPort(CarPricesWebService.class);
 //        out.println(getPriceOfCar.getPrice("Nissan Almera"));

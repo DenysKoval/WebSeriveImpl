@@ -1,6 +1,6 @@
 package endPoint;
 
-import firstWebService.CarPricesServiceImpl;
+import webServices.CarPricesServiceImpl;
 
 import javax.xml.ws.Endpoint;
 
@@ -9,6 +9,6 @@ import javax.xml.ws.Endpoint;
  */
 public class HelloWebServicePublisher {
     public static void main(String[] args) {
-        Endpoint.publish("http://localhost:8080/firstWebService/carsPrices", new CarPricesServiceImpl());
+        Endpoint.publish("http://localhost:8080/webServices/carsPrices", new CarPricesServiceImpl());
     }
 }
