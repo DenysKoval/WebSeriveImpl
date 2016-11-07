@@ -7,6 +7,15 @@
     <groupId>org.apache.maven.archetypes</groupId>
     <artifactId>maven-archetype-webapp</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>bla</groupId>
+            <artifactId>soapui</artifactId>
+            <version>5.2.1</version>
+            <systemPath>/D:\soapui-5.2.1.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -19,6 +28,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>

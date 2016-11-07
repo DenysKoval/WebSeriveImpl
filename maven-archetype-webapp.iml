@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-	 <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library" exported="">
       <library name="JUnit4">
         <CLASSES>
           <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
@@ -21,8 +21,30 @@
         <SOURCES />
       </library>
     </orderEntry>
-	 <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library" exported="">
       <library>
+        <CLASSES>
+          <root url="jar://D:/soapui-5.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://C:/Program Files/SmartBear/ReadyAPI-1.9.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/Program Files/SmartBear/ReadyAPI-1.9.0/lib" />
+        </SOURCES>
+        <jarDirectory url="file://C:/Program Files/SmartBear/ReadyAPI-1.9.0/lib" recursive="false" />
+        <jarDirectory url="file://C:/Program Files/SmartBear/ReadyAPI-1.9.0/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: bla:soapui:5.2.1">
         <CLASSES>
           <root url="jar://D:/soapui-5.2.1.jar!/" />
         </CLASSES>
