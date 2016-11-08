@@ -46,7 +46,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:activation:1.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/activation-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/activation-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -55,7 +55,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:active:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/activeQueryBuilder-activeQueryBuilder.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/activeQueryBuilder-activeQueryBuilder.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -64,7 +64,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:soapui:5.2.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/soapui-5.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/soapui-5.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -73,7 +73,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:spring:2.5.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/com.springsource.javax.servlet-2.5.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/com.springsource.javax.servlet-2.5.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -82,7 +82,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:tools:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/tools.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -91,7 +91,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xstream:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xstream-1.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xstream-1.3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -100,7 +100,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xom:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xom-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xom-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -109,7 +109,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmlunit:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmlunit-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmlunit-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -118,7 +118,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmltooling:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmltooling-1.3.2-1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmltooling-1.3.2-1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -127,7 +127,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmlsec:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmlsec-1.4.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmlsec-1.4.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -136,7 +136,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmlpublic:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmlpublic-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmlpublic-2.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -145,7 +145,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmlParserAPIs:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmlParserAPIs-2.6.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmlParserAPIs-2.6.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -154,7 +154,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xmlbeans:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xmlbeans-2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xmlbeans-2.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -163,7 +163,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:xml-apis:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/xml-apis-2.9.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/xml-apis-2.9.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -172,7 +172,7 @@
     <orderEntry type="module-library">
       <library name="Maven: lib:junit:4.11">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/test/lib/junit-4.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/junit-4.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
