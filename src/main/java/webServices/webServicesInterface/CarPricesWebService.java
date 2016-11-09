@@ -9,11 +9,19 @@ import javax.jws.soap.SOAPBinding;
 @javax.jws.WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface CarPricesWebService {
-    @WebMethod
-    double getPrice(String description);
-    @WebMethod
-    int addFuel(int addedAmount);
 
     @WebMethod
-    int getFuelLevel();
+    int getRatePer100Km(String nameOfCar);
+
+    @WebMethod
+    int addDistant(int addedAmount);
+
+    @WebMethod
+    boolean isCarGetToCity(String nameOfCar);
+
+    @WebMethod
+    int getFuelTank(String nameOfCar);
+
+    @WebMethod
+    int getCarDistant();
 }

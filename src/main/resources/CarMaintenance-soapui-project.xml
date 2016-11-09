@@ -95,7 +95,7 @@
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <web:getPrice>\r
-         <arg0></arg0>\r
+         <arg0>Nissan Almera</arg0>\r
       </web:getPrice>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="0f850bb1-ca61-464c-8359-f5ed8ab9ab15"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="0f850bb1-ca61-464c-8359-f5ed8ab9ab15"/><con:assertion type="Simple Contains" id="5aa7f0b0-2ef3-483e-96b8-f5d25bafee87" name="Contains"><con:configuration><token>6500.0</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>priceForCars</con:name><con:value>6500.0</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>
